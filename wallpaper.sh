@@ -8,7 +8,7 @@ check_status()
 path()
 {
 #full path to you wallpaper folder example shown below:
-find "/home/sid/Images/Wallpapers"
+find "/home/sid/Images/Wallpapers" | shuf -n 1
 }
 file()
 {
